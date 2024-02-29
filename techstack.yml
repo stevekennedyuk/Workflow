@@ -1,0 +1,32 @@
+repo_name: stevekennedyuk/Workflow
+report_id: 1effad5e9fbba2f3f7a9008c95bc7c8e
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:19:08+00:00'
+requested_by: stevekennedyuk
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/stevekennedyuk/Workflow
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/stevekennedyuk/Workflow/blob/main/.github/workflows/actionsflow-reset-cache.yml
+  detection_source: ".github/workflows/actionsflow-reset-cache.yml"
+  last_updated_by: Steve Karmeinsky
+  last_updated_on: 2020-10-19 23:02:25.000000000 Z
